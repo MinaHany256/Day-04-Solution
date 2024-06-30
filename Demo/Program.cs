@@ -112,6 +112,19 @@
         //} 
         #endregion
 
+        #region Params
+        //static int SumArray (params int[] Arr)
+        //{
+        //    int sum = 0;
+
+        //    if (Arr is not null)
+        //        for (int i = 0; i< Arr.Length;i++)
+        //            sum += Arr[i];
+
+        //    return sum;
+        //} 
+        #endregion
+
         static void Main()
         {
 
@@ -177,6 +190,10 @@
             ////Console.WriteLine($"SReslut: {SResult}"); 
             #endregion
 
+            #region Params
+            //int total = SumArray (1, 2, 3, 4, 5, 6, 7);
+            //Console.WriteLine (total); 
+            #endregion
         }
     }
 }
