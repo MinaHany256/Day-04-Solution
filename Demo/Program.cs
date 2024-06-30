@@ -42,7 +42,37 @@
         ///} 
         #endregion
 
+        #region Reference Type Parameters
 
+        #region Example01
+        /// Passing By Value 
+        ///static int SumArray(int[] array)   // array = Numbers
+        ///{
+        ///    int sum = 0;
+        ///    if (array is not null)
+        ///    {
+        ///        array[0] = 100;
+        ///        for (int i = 0; i < array.Length; i++)
+        ///            sum += array[i];
+        ///    }
+        ///    return sum;
+        ///}
+
+        /// Passing By Reference 
+        ///static int SumArray(ref int[] array)   // array = Numbers
+        ///{
+        ///    int sum = 0;
+        ///    if (array is not null)
+        ///    {
+        ///        array[0] = 100;
+        ///        for (int i = 0; i < array.Length; i++)
+        ///            sum += array[i];
+        ///    }
+        ///    return sum;
+        ///} 
+        #endregion
+
+        #endregion
 
         static void Main()
         {
@@ -75,7 +105,20 @@
             //Console.WriteLine($"B : {B}"); 
             #endregion
 
+            #region Reference Type Parameters
 
+            #region Example 01
+            //int[] numbers = [1, 2, 3, 4, 5];
+            //int sum = SumArray(numbers);     // Passing By Value
+            // SumArray(AddressOfArray)
+
+            //int sum  = SumArray(ref numbers);   // Passing By Ref
+            // SumArray(ReferenceOfArray)
+
+            //Console.WriteLine(numbers[0]);  
+            #endregion
+
+            #endregion
         }
     }
 }
