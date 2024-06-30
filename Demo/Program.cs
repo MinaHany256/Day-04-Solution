@@ -104,6 +104,14 @@
 
         #endregion
 
+        #region Passing By Out
+        //static void SumMul(int X, int Y, out int sum, out int mul)
+        //{
+        //    sum = X + Y;
+        //    mul = X * Y;
+        //} 
+        #endregion
+
         static void Main()
         {
 
@@ -158,6 +166,15 @@
             #endregion
 
 
+            #endregion
+
+            #region Passing By Out
+            //int A = 3, B = 4;
+
+            //SumMul(A, B, out int _, out int MResult);
+
+            //Console.WriteLine($"MReslut: {MResult}");
+            ////Console.WriteLine($"SReslut: {SResult}"); 
             #endregion
 
         }
