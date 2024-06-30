@@ -24,6 +24,24 @@
 
         #endregion
 
+        #region Value Type Parameters
+        /// Passing By Value
+        ///static void SWAP(int x, int y)
+        ///{
+        ///    int temp = x;
+        ///    x = y;
+        ///    y = temp;
+        ///}
+
+        ///Passign By Ref
+        ///static void SWAP(ref int x, ref int y)
+        ///{
+        ///    int temp = x;
+        ///    x = y;
+        ///    y = temp;
+        ///} 
+        #endregion
+
 
 
         static void Main()
@@ -36,6 +54,25 @@
 
             //Console.WriteLine("Hi\nmina\thany");
             //Console.WriteLine(@"Hi\nmina\thany"); 
+            #endregion
+
+            #region Value Type Parameters
+            //int A = 3;
+            //int B = 5;
+
+            //Console.WriteLine($"A : {A}");
+            //Console.WriteLine($"B : {B}");
+
+            ////SWAP(A, B); // Passing By Value   [Input Parameters ]
+            //            // SWAP(3,5)
+
+            //SWAP( ref A, ref B );   // Passing By Ref   [Input Output Parameters]
+            //                        // SWAP(A,B)
+
+            //Console.WriteLine("**********After Swaping************");
+
+            //Console.WriteLine($"A : {A}");
+            //Console.WriteLine($"B : {B}"); 
             #endregion
 
 
