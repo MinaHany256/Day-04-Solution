@@ -83,6 +83,25 @@ namespace Assignment
 
         #endregion
 
+        #region 5-Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
+
+        //static bool isPrime (int number)
+        //{
+        //    bool flag;
+        //    int i = 2;
+
+        //    if(number == 0 || number == 1) 
+        //        return flag = false;
+        //    if(number == i)
+        //        return flag = true;
+        //    if(number % i == 0)
+        //        return flag = false;
+
+        //    return flag = true;
+        //}
+
+        #endregion
+
 
 
         static void Main()
@@ -177,6 +196,20 @@ namespace Assignment
             //Console.WriteLine($"The Sum = {sum}");
 
             #endregion
+
+            #region 5-Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
+
+            //Console.WriteLine("Enter any Number : ");
+            //int number  = int.Parse(Console.ReadLine());
+
+            //if(isPrime(number))
+            //    Console.WriteLine("True");
+            //else Console.WriteLine("False");
+
+            #endregion
+
+
+
         }
     }
 }
