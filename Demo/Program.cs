@@ -125,6 +125,56 @@
         //} 
         #endregion
 
+        #region Exception Handling and Protective Code
+
+        //static void DoSomeCode()
+        //{
+        //    try
+        //    {
+        //        int x, y, z;
+
+        //        x = int.Parse(Console.ReadLine());
+        //        y = int.Parse(Console.ReadLine());
+
+        //        z = x / y;
+
+        //        int[] Arr = [1, 2, 3];
+        //        Arr[100] = 22;
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //    }
+        //}
+
+        //static void DoSomeProtectiveCode()
+        //{
+
+        //    int X, Y, Z;
+
+        //    do
+        //    {
+        //        Console.Write("Please Enter The First Number: ");
+               
+
+        //    } while (!int.TryParse(Console.ReadLine(), out X));
+
+        //    do
+        //    {
+        //        Console.Write("Please Enter The Second Number: ");
+
+
+        //    } while (!int.TryParse(Console.ReadLine(), out Y) || Y == 0);
+
+        //    Z = X / Y;
+
+        //    int[] Arr = [1, 2, 3];
+
+        //    if(Arr?.Length > 100) 
+        //    Arr[100] = 22;
+        //}
+        #endregion
+
         static void Main()
         {
 
@@ -334,6 +384,35 @@
             //int? len02 = numbers?.Length ?? 0; 
             #endregion
 
+            #endregion
+
+            #region Exception Handling and Protective Code
+            //DoSomeCode();
+
+            //Exception
+            //    1. SystemException
+            //                1.FormatException
+            //                2.IndexOutOfRangeException
+            //                3.NullReferenceException
+            //                4.InvalidOperationException
+            //                5.ArithmeticException
+            //                    5.1 DivideByZeroException
+            //                    5.2 OverflowException
+            //    2. ApplicationException
+
+            //try
+            //{
+            //    DoSomeProtectiveCode();
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //}
+            //finally
+            //{
+            //    // close Unmanaged Resources  [DataBase connection]
+            //    //Always Done
+            //} 
             #endregion
 
         }
