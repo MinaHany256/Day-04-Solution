@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.Diagnostics.Metrics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
 {
@@ -60,7 +61,24 @@ namespace Assignment
         //{
         //     sum = number01 + number02;
         //     sub = number03 - number04;
-             
+
+        //}
+
+        #endregion
+
+        #region  4-Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.Output should be like Enter a number: 25 The sum of the digits of the number 25 is: 7
+
+        //static int SumNumbers(int number)
+        //{
+        //    int sum = 0;
+
+        //    while (number != 0)
+        //    {
+        //        sum += number % 10;
+        //        number /= 10;
+        //    }
+
+        //    return sum;
         //}
 
         #endregion
@@ -120,7 +138,7 @@ namespace Assignment
             //do
             //{
             //    Console.Write("Enter First Number : ");
-                
+
             //} while (!int.TryParse(Console.ReadLine(),out number01));
 
             //do
@@ -148,7 +166,17 @@ namespace Assignment
 
             #endregion
 
+            #region 4-Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.Output should be like Enter a number: 25 The sum of the digits of the number 25 is: 7
 
+            //Console.Write("Please Enter a number: ");
+
+            //int numbers = int.Parse(Console.ReadLine());
+
+            //int sum = SumNumbers(numbers);
+
+            //Console.WriteLine($"The Sum = {sum}");
+
+            #endregion
         }
     }
 }
