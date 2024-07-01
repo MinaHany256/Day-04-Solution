@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Assignment
 {
 
     internal class Program
@@ -52,6 +54,17 @@
 
         #endregion
 
+        #region 3-Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+
+        //static void SumAndSub (int number01 , int number02 ,int number03 , int number04 , out int sum , out int sub)
+        //{
+        //     sum = number01 + number02;
+        //     sub = number03 - number04;
+             
+        //}
+
+        #endregion
+
 
 
         static void Main()
@@ -99,6 +112,40 @@
             ///// so when saying that (array = [6,7,8]) the numbers array will be also changed to the new array
             //int sum = SumArray(ref numbers);     // Passing By reference
             //Console.WriteLine(numbers[0]); 
+            #endregion
+
+            #region 3-Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+
+            //int number01,number02, number03,number04;
+            //do
+            //{
+            //    Console.Write("Enter First Number : ");
+                
+            //} while (!int.TryParse(Console.ReadLine(),out number01));
+
+            //do
+            //{
+            //    Console.Write("Enter Second Number : ");
+
+            //} while (!int.TryParse(Console.ReadLine(), out number02));
+
+            //do
+            //{
+            //    Console.Write("Enter Third Number : ");
+
+            //} while (!int.TryParse(Console.ReadLine(), out number03));
+
+            //do
+            //{
+            //    Console.Write("Enter Fourth Number : ");
+
+            //} while (!int.TryParse(Console.ReadLine(), out number04));
+
+            //SumAndSub(number01, number02, number03, number04, out int sum, out int sub);
+
+            //Console.WriteLine($"Summation of First Two Numbers  = {sum}");
+            //Console.WriteLine($"Subtraction of Second Two Numbers  = {sub}");
+
             #endregion
 
 
