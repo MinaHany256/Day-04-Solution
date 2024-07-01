@@ -194,6 +194,53 @@
             //int total = SumArray (1, 2, 3, 4, 5, 6, 7);
             //Console.WriteLine (total); 
             #endregion
+
+            #region Boxing and unboxing
+
+            // Boxing : Casting from ValueType to ReferenceType
+            // UnBoxing : Casting from ReferenceType to ValueType
+
+            #region Example 01
+            //object obj;
+            ///// Declaring for reference of type "Object" , Refering to the default value of referenceType = NULL
+            ///// This reference 'obj' will be allocated at STACK with size 4 bytes
+            ///// This reference 'obj' can refer to an instance of type "Object" or another type inherting from "Object"
+
+            //obj = new object();
+            //obj = "Ahmed";
+
+            //obj = 'A';    // Casting From Char to object  ---> Boxing
+            //obj = 5;      // Casting from int to object   ---> Boxing
+            //obj = 5.5;    // Casting from double to object   ---> Boxing
+            //obj = true;   // Casting from boolean to object   ---> Boxing
+
+            //bool flag = (bool) obj; 
+            #endregion
+
+            #region Example 02
+            //int x = 10;
+
+            //object obj = x;
+            //Console.WriteLine(obj);
+
+            //int y = (int) obj;
+            ////Casting from object [reference type] to int [value type] Explicitly
+            ////          new object(20) ---------> 20
+            //// unboxing   [unsafe casting] 
+            #endregion
+
+            //// Parent = ChildX
+            //// Animal = Dog
+            //// Safe Casting
+            //// Boxing
+
+            //// ChildX = (ChildX) Parent
+            //// Dog = (Dog) Animal
+            //// Unsafe Casting
+            //// UnBoxing
+
+            #endregion
+
         }
     }
 }
