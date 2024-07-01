@@ -20,6 +20,40 @@
         //} 
         #endregion
 
+        #region 2-Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
+
+        /// Passing By Value 
+        ///static int SumArray(int[] array)   // array = Numbers
+        ///{
+        ///    int sum = 0;
+        ///    if (array is not null)
+        ///    {
+        ///        //array[0] = 100;
+        ///        array = [6, 7, 8];
+        ///        for (int i = 0; i < array.Length; i++)
+        ///            sum += array[i];
+        ///    }
+        ///    return sum;
+        ///}
+
+        /// Passing By Reference
+        ///static int SumArray(ref int[] array)   // array = Numbers
+        ///{
+        ///    int sum = 0;
+        ///    if (array is not null)
+        ///    {
+        ///        //array[0] = 100;
+        ///        array = [6, 7, 8];
+        ///        for (int i = 0; i < array.Length; i++)
+        ///            sum += array[i];
+        ///    }
+        ///    return sum;
+        ///} 
+
+        #endregion
+
+
+
         static void Main()
         {
             #region 1-Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example.
@@ -49,6 +83,22 @@
             //Console.WriteLine($"A : {A}");
             //Console.WriteLine($"B : {B}");
 
+            #endregion
+
+            #region 2-Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
+
+            ///// Passing by Value : in this Example , we will send the address of the array as a parameter 
+            ///// and after saying that (array = [6,7,8]) the SumArray in the stack Frame refers to new array ([6,7,8])
+            ///// while the numbers array in the main stack frame still the same not changed  
+            //int[] numbers = [1, 2, 3, 4, 5];
+            //int sum = SumArray(numbers);     // Passing By Value
+
+            //Console.WriteLine(numbers[0]); 
+
+            ///// Passing by Reference : in this Example , it will send the reference of the array (numbers) as a parameter , then the function has access on the numbers array but with name (array)
+            ///// so when saying that (array = [6,7,8]) the numbers array will be also changed to the new array
+            //int sum = SumArray(ref numbers);     // Passing By reference
+            //Console.WriteLine(numbers[0]); 
             #endregion
 
 
