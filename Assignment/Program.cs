@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Metrics;
+﻿using System;
+using System.Diagnostics.Metrics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
@@ -98,6 +99,25 @@ namespace Assignment
         //        return flag = false;
 
         //    return flag = true;
+        //}
+
+        #endregion
+
+        #region 6-Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+
+        //static void MinMaxArray(int[] Arr, out int Min, out int Max)
+        //{
+        //    Min = 0; Max = 0;
+
+        //    for (int i = 0; i < Arr.Length; i++)
+        //    {
+        //        if(Min > Arr[i])
+        //            Min = Arr[i];
+
+        //        if (Max < Arr[i])
+        //            Max = Arr[i];
+        //    }
+
         //}
 
         #endregion
@@ -205,6 +225,18 @@ namespace Assignment
             //if(isPrime(number))
             //    Console.WriteLine("True");
             //else Console.WriteLine("False");
+
+            #endregion
+
+            #region 6-Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+
+            //int[] Arr = [3, 5, 7, 2, 8, -1, 4, 10, 12];
+
+
+            //MinMaxArray(Arr, out int min, out int max);
+
+            //Console.WriteLine($"Minimum value in the array: {min}");
+            //Console.WriteLine($"Maximum value in the array: {max}");
 
             #endregion
 
