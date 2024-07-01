@@ -122,6 +122,24 @@ namespace Assignment
 
         #endregion
 
+        #region 7-Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+
+        //static int GetFactorial (int number)
+        //{
+        //    int factorial = 1;
+
+        //    while(number > 0)
+        //    {
+        //        factorial*=number;
+
+        //        number--;
+        //    }
+
+        //    return factorial;
+        //}
+
+        #endregion
+
 
 
         static void Main()
@@ -237,6 +255,17 @@ namespace Assignment
 
             //Console.WriteLine($"Minimum value in the array: {min}");
             //Console.WriteLine($"Maximum value in the array: {max}");
+
+            #endregion
+
+            #region 7-Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+
+            //Console.Write("Please Enter any Number : ");
+            //int number = int.Parse(Console.ReadLine());
+
+            //int Result = GetFactorial(number);
+
+            //Console.WriteLine($"Factorial of this number = {Result}");
 
             #endregion
 
