@@ -303,16 +303,38 @@
             //// null isa a valid value for the variables referenceType (Class, interface)
 
             //string message01 = null!;
-            
+
             //Console.WriteLine(message01);
 
             //string? message02 = null;
-            
+
             //Console.WriteLine(message02);
 
 
             #endregion
 
+            #region Null Propagation Operator
+
+            #region Example 01
+            //decimal number = default;
+
+            //int[]? numbers = default;
+
+            //if (numbers is not null)
+            //    for (int i = 0; i < numbers.Length /*Derefreincing (access any array)*/; i++)
+            //        Console.WriteLine(numbers[i]);
+
+            //// Option 01
+            //if (numbers is not null)
+            //{
+            //    int len01 = numbers.Length;
+            //}
+
+            //// Option 02  [Null Propagation Operator]
+            //int? len02 = numbers?.Length ?? 0; 
+            #endregion
+
+            #endregion
 
         }
     }
