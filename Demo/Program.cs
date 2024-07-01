@@ -241,6 +241,64 @@
 
             #endregion
 
+            #region Nullable ValueTypes [C# 2.0 (2005)]
+
+            // null is not a valid value for the variables of datatype [valuetype]
+            // NullableTypes : ValueTypes allows NULL as a Value
+
+            #region Part 01
+            //int? Age;
+            //Age = null;
+
+            //decimal? salary;
+            //salary = null; 
+            #endregion
+
+            #region Part 02
+            //int x = 10;
+            //// x : int --> Allow integer only.
+            //// y : nullable<int> Allow int + NULL
+            //int? y = x;
+            //// casting from int to nullable int implicitly
+            //// Safe Casting
+
+
+            //int? x = 10;
+            ////int y = (int) x;  // xxxxxxxxx (Wrong)
+            ////// Casting from  nullable<int> to int Explicitly 
+            ////// Unsafe Casting
+
+            //// we need to write proticitive code
+            //int y;
+
+            ///**********************************************************/
+
+            //if (x is not null)
+            //    y = (int)x;
+            //else
+            //    y = 0;
+
+            ///**********************************************************/
+
+            //if (x.HasValue)
+            //    y = x.Value;
+            //else
+            //    y = 0;
+
+            ///**********************************************************/
+
+            //y = x.HasValue ? x.Value : 0;
+
+            ///**********************************************************/
+
+            //// ??   --->  NULL coalescing Operator  [Syntax Sugar]
+            //y = x ?? 0; 
+            #endregion
+
+
+            #endregion
+
+
         }
     }
 }
