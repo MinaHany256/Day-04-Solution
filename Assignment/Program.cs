@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Diagnostics.Metrics;
+using System.Reflection;
+using System.Text;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
@@ -140,7 +142,18 @@ namespace Assignment
 
         #endregion
 
+        #region 8-Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
 
+        //static string ChangeChar(string name, Char char01, int index)
+        //{
+        //    StringBuilder sb = new StringBuilder(name);
+        //    sb[index] = char01;
+
+        //    return sb.ToString();
+
+        //}
+
+        #endregion
 
         static void Main()
         {
@@ -269,7 +282,18 @@ namespace Assignment
 
             #endregion
 
+            #region 8-Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
 
+            //string name = "mina";
+            //int position = 1;
+            //char newChar = 'o';
+
+            //string NewName = ChangeChar(name, newChar, position);
+
+            //Console.WriteLine($"Original string: {name}");
+            //Console.WriteLine($"New string: {NewName}");
+
+            #endregion
 
         }
     }
