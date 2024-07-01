@@ -298,6 +298,21 @@
 
             #endregion
 
+            #region Nullable ReferenceType [C# 10.0 (2021)]
+
+            //// null isa a valid value for the variables referenceType (Class, interface)
+
+            //string message01 = null!;
+            
+            //Console.WriteLine(message01);
+
+            //string? message02 = null;
+            
+            //Console.WriteLine(message02);
+
+
+            #endregion
+
 
         }
     }
